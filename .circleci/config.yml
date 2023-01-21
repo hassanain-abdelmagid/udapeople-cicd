@@ -2,7 +2,9 @@ version: 2.1
 
 orbs:
   slack: circleci/slack@4.29.149
-# commands:
+
+  
+commands:
     notify_on_failure:
       steps:
         - slack/notify:
