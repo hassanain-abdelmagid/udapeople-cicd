@@ -310,7 +310,7 @@ jobs:
 #             fi
   notify_on_success:
     docker:
-      - image: cimg/base
+      - image: cimg/base:2022.09
     steps:
       - slack/notify:
           event: pass
