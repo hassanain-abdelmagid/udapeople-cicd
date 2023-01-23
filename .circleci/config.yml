@@ -155,15 +155,15 @@ jobs:
     docker:
       - image: cimg/base:stable
     steps:
-      - install_awscli
-      - run:
-          name: Ensure back-end infrastructure exists
-          command: |
-            aws cloudformation deploy \
-              --template-file .circleci/files/backend.yml \
-              --tags project=udapeopole \
-              --stack-name "udapeople-backend-${CIRCLE_WORKFLOW_id:0:7}" \
-              --parameter-overrides ID="${CIRCLE_WORKFLOW_id:0:7}"  
+      # - install_awscli
+      # - run:
+      #     name: Ensure back-end infrastructure exists
+      #     command: |
+      #       aws cloudformation deploy \
+      #         --template-file .circleci/files/backend.yml \
+      #         --tags project=udapeopole \
+      #         --stack-name "udapeople-backend-${CIRCLE_WORKFLOW_id:0:7}" \
+      #         --parameter-overrides ID="${CIRCLE_WORKFLOW_id:0:7}"  
               
       - run:
           name: Ensure front-end infrastructure exist
