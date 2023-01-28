@@ -1,5 +1,9 @@
+URL01: https://github.com/hassanain-abdelmagid/udapeople-cicd.git
 
+URL02: http://udapeople-46b749c.s3-website-us-east-1.amazonaws.com/
 
-URL02: http://d3jofhpwxnufak.cloudfront.net
+URL03: http://d8an9r46q03d3.cloudfront.net
 
-S3 URL: http://udapeople-7da6a40.s3.amazonaws.com/index.html
+URL04:  http://ec2-54-175-21-170.compute-1.amazonaws.com:3030/api/status
+
+URL05:  http://ec2-54-237-61-23.compute-1.amazonaws.com:9090
